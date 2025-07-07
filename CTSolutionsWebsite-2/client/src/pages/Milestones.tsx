@@ -96,18 +96,23 @@ export default function Milestones() {
   const timelineEvents = [
     {
       title: "Company Founded",
-      description: "Started our journey in technology solutions",
+      description: "Started our journey in technology solutions at 2024",
       side: "left"
     },
     {
       title: "First 100 Students",
-      description: "Reached our first major training milestone",
+      description: "Won prestigious hackathon competitions",
       side: "right"
     },
     {
       title: "Award Recognition",
-      description: "Won prestigious hackathon competitions",
+      description: "Now started building our own products",
       side: "left"
+    },
+    {
+      title: "First 100 Students",
+      description: "Loading...",
+      side: "right"
     }
   ];
 
