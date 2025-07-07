@@ -145,7 +145,7 @@ export default function ServicesDone() {
         {/* Photo Grid */}
         <div>
           <h3 className="text-2xl font-bold text-ct-primary text-center mb-8 mild-black-neon">
-          Sessions Gallery
+          Gallery
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
             {galleryImages.map((image, index) => (
