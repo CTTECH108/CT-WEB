@@ -30,13 +30,13 @@ export default function Footer() {
                 <i className="fab fa-linkedin text-ct-primary"></i>
               </a>
               <a
-                href="#"
+                href="https://x.com/crysteclogi1624?s=09"
                 className="bg-ct-primary/20 p-3 rounded-full hover:bg-ct-primary/40 transition-colors"
               >
-                <i className="fab fa-twitter text-ct-primary"></i>
+                <i className="fab fa-x-twitter text-ct-primary"></i>
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/at_crys_tec/profilecard/?igsh=YmRzdmN1Z3d6d2dn"
                 className="bg-ct-primary/20 p-3 rounded-full hover:bg-ct-primary/40 transition-colors"
               >
                 <i className="fab fa-instagram text-ct-primary"></i>
