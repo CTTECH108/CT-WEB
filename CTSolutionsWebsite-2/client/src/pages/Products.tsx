@@ -84,7 +84,7 @@ export default function Products() {
         {/* Product showcase image */}
         <div className="mt-16 text-center">
           <img
-            src="https://github.com/CTTECH108/CT-WEB/blob/main/CTSolutionsWebsite-2/attached_assets/photo%20collage.png"
+            src="https://i.postimg.cc/pd6QxmtG/photo-collage.png"
             alt="Product showcase with mobile and web applications"
             className="rounded-2xl shadow-xl neon-border mx-auto max-w-4xl w-full h-auto"
           />
