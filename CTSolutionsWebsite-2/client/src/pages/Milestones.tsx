@@ -100,17 +100,17 @@ export default function Milestones() {
       side: "left"
     },
     {
-      title: "First 100 Students",
+      title: "Award Recognition",
       description: "Won prestigious hackathon competitions",
       side: "right"
     },
     {
-      title: "Award Recognition",
+      title: "Our Own Products",
       description: "Now started building our own products",
       side: "left"
     },
     {
-      title: "First 100 Students",
+      title: "Keep connected for the updates!",
       description: "Loading...",
       side: "right"
     }
