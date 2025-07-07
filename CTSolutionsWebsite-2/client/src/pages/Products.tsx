@@ -84,7 +84,7 @@ export default function Products() {
         {/* Product showcase image */}
         <div className="mt-16 text-center">
           <img
-            src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=600"
+            src="/attached_assets/photo collage.png"
             alt="Product showcase with mobile and web applications"
             className="rounded-2xl shadow-xl neon-border mx-auto max-w-4xl w-full h-auto"
           />
