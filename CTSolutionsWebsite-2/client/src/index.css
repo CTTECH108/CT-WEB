@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(26, 83%, 5%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(26, 83%, 5%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(26, 83%, 5%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(174, 58%, 41%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(184, 56%, 64%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(210, 40%, 98%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+  
+  /* CTSolutions Custom Colors */
+  --ct-primary: hsl(177, 59%, 41%);
+  --ct-secondary: hsl(184, 56%, 64%);
+  --ct-accent: hsl(210, 40%, 98%);
+  --ct-bg: hsl(180, 52%, 93%);
+  --ct-text: hsl(0, 0%, 10%);
+  --ct-text-secondary: hsl(0, 0%, 31%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(174, 58%, 41%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  .font-tech {
+    font-family: 'Orbitron', monospace;
+  }
+  
+  .font-modern {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .neon-glow {
+    transition: text-shadow 0.3s ease;
+  }
+  
+  .neon-glow:hover {
+    text-shadow: 0 0 5px hsl(177, 59%, 41%), 0 0 10px hsl(177, 59%, 41%), 0 0 15px hsl(177, 59%, 41%), 0 0 20px hsl(177, 59%, 41%);
+  }
+  
+  .neon-border {
+    box-shadow: 0 0 5px hsl(177, 59%, 41%), 0 0 10px hsl(177, 59%, 41%), 0 0 15px hsl(177, 59%, 41%), inset 0 0 5px hsla(177, 59%, 41%, 0.2);
+    border: 1px solid hsl(177, 59%, 41%);
+  }
+  
+  .neon-button {
+    background: linear-gradient(45deg, hsl(177, 59%, 41%), hsl(184, 56%, 64%));
+    box-shadow: 0 0 10px hsla(177, 59%, 41%, 0.5), 0 0 20px hsla(177, 59%, 41%, 0.3), 0 0 30px hsla(177, 59%, 41%, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .neon-button:hover {
+    box-shadow: 0 0 15px hsla(177, 59%, 41%, 0.8), 0 0 25px hsla(177, 59%, 41%, 0.6), 0 0 35px hsla(177, 59%, 41%, 0.4);
+    transform: translateY(-2px);
+  }
+  
+  .neon-card {
+    background: hsla(210, 40%, 98%, 0.9);
+    backdrop-filter: blur(10px);
+    border: 1px solid hsla(177, 59%, 41%, 0.3);
+    box-shadow: 0 4px 15px hsla(177, 59%, 41%, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .neon-card:hover {
+    box-shadow: 0 0 20px hsla(177, 59%, 41%, 0.3), 0 8px 25px hsla(0, 0%, 0%, 0.1);
+    border-color: hsl(177, 59%, 41%);
+  }
+  
+  .pulse-glow {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .pulse-glow:hover {
+    animation: pulseGlow 2s infinite;
+  }
+  
+  .section-divider {
+    background: linear-gradient(90deg, transparent, hsl(177, 59%, 41%), transparent);
+    height: 2px;
+    margin: 3rem 0;
+  }
+  
+  .hero-3d {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+  }
+  
+  .floating-card {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .rotating-cube {
+    animation: rotate3d 20s linear infinite;
+  }
+  
+  .bounce-slow {
+    animation: bounce-slow 3s ease-in-out infinite;
+  }
+  
+  .mobile-menu {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+  
+  .mobile-menu.active {
+    transform: translateX(0);
+  }
+  
+  .bg-ct-primary { background-color: hsl(177, 59%, 41%); }
+  .bg-ct-secondary { background-color: hsl(184, 56%, 64%); }
+  .bg-ct-accent { background-color: hsl(210, 40%, 98%); }
+  .bg-ct-bg { background-color: hsl(180, 52%, 93%); }
+  .text-ct-primary { color: hsl(177, 59%, 41%); }
+  .text-ct-secondary { color: hsl(184, 56%, 64%); }
+  .text-ct-text { color: hsl(0, 0%, 10%); }
+  .text-ct-text-secondary { color: hsl(0, 0%, 31%); }
+  .border-ct-primary { border-color: hsl(177, 59%, 41%); }
+  .hover\:text-ct-primary:hover { color: hsl(177, 59%, 41%); }
+  .hover\:text-ct-secondary:hover { color: hsl(184, 56%, 64%); }
+  .hover\:bg-ct-primary:hover { background-color: hsl(177, 59%, 41%); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { 
+    box-shadow: 0 0 5px hsl(177, 59%, 41%), 0 0 10px hsl(177, 59%, 41%), 0 0 15px hsl(177, 59%, 41%); 
+  }
+  50% { 
+    box-shadow: 0 0 10px hsl(177, 59%, 41%), 0 0 20px hsl(177, 59%, 41%), 0 0 30px hsl(177, 59%, 41%); 
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotateX(0deg); }
+  33% { transform: translateY(-20px) rotateX(5deg); }
+  66% { transform: translateY(-10px) rotateX(-5deg); }
+}
+
+@keyframes rotate3d {
+  0% { transform: rotateY(0deg) rotateX(0deg); }
+  25% { transform: rotateY(90deg) rotateX(10deg); }
+  50% { transform: rotateY(180deg) rotateX(0deg); }
+  75% { transform: rotateY(270deg) rotateX(-10deg); }
+  100% { transform: rotateY(360deg) rotateX(0deg); }
+}
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0px) scale(1); }
+  50% { transform: translateY(-15px) scale(1.05); }
+}
+
+/* Additional utility for radial gradient */
+.bg-gradient-radial {
+  background: radial-gradient(circle, var(--tw-gradient-stops));
+}
+
+/* Mild black neon effect for all text */
+.mild-black-neon {
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3), 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Apply mild black neon effect to all text elements except footer */
+body h1:not(footer h1),
+body h2:not(footer h2),
+body h3:not(footer h3),
+body h4:not(footer h4),
+body h5:not(footer h5),
+body h6:not(footer h6),
+body p:not(footer p),
+body span:not(footer span),
+body div:not(footer div),
+body button:not(footer button),
+body a:not(footer a),
+body label:not(footer label),
+body li:not(footer li) {
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3), 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Exclude footer from mild black neon effect */
+footer,
+footer * {
+  text-shadow: none !important;
+}

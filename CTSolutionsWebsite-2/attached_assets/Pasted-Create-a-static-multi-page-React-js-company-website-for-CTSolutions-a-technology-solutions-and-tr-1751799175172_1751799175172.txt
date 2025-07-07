@@ -1,0 +1,173 @@
+Create a static multi-page React.js company website for "CTSolutions", a technology solutions and training provider.
+The site must be responsive, visually professional, and mobile-friendly. Use only React.js (no backend). Pages should be implemented using React Router DOM for navigation.
+
+🔹 Pages to include:
+Home
+
+About
+
+Services
+
+Our Products
+
+Services Done
+
+Milestones
+
+Contact
+
+📄 Page Content:
+Home Page:
+
+Welcome To,
+CTSolutions
+Your Trusted Partner In Technology Solutions
+About Page:
+
+Let's build your digital future together!
+
+☆  At CT Solutions, we are passionate about delivering innovative technology solutions and training future tech leaders.
+
+☆  Our team of experts provides tailored IT services and hands-on training programs to help businesses and individuals thrive in the digital world.
+
+☆  With a commitment to excellence, we serve clients across Tamil Nadu and beyond.
+Services Page:
+INTERNSHIP DOMAINS [All at Rs.999]:
+
+Software-Oriented Domains:
+
+Full Stack Web Development
+
+MERN Stack Development
+
+Java Full Stack
+
+Python Full Stack
+
+Cloud Computing
+
+Cybersecurity
+
+Blockchain
+
+UI/UX Design
+
+Beginner JavaScript
+
+Database Management
+
+ECE-Oriented Domains:
+
+Embedded Systems (Arduino / Raspberry Pi)
+
+Internet of Things (IoT)
+
+Robotics & Automation
+
+VLSI Design Fundamentals
+
+Digital Electronics (Simulation)
+
+Signal Processing using MATLAB
+
+WORKSHOP MODULES (FREE & PAID):
+
+Software Workshops:
+
+Full Stack Web Development
+
+MERN Stack
+
+Java & JavaScript Basics
+
+Python Full Stack
+
+Cloud Fundamentals
+
+Cybersecurity Essentials
+
+Blockchain Introduction
+
+UI/UX Design
+
+Database Management
+
+ECE Workshops:
+
+Embedded C Programming
+
+IoT Prototyping & Simulations
+
+Robotics with Arduino
+
+VLSI Design (with simulation tools)
+
+Digital Circuit Simulations
+
+Signal Processing in MATLAB
+
+Our Products Page:
+One Touch: Multi-service app integrating radio, travel booking, food delivery, and healthcare.
+
+Farmers Friend: Online E-Sandhai platform.
+
+Electrooculography: Eye-tracking simulation system to control digital devices using biosignals.
+
+Services Done Page: (Add space for custom images or photo grid)
+Educational Website: Full ERP system for student & trainer management.
+
+Web Dev Course: Trained 200+ students in Full Stack Development.
+
+Training @ NOVA SPARK HUB: Taught 50+ students.
+
+Free One-Day Workshop: Trained 200+ students.
+
+Crash Course for VLGE Pvt. Ltd.: Frontend + Cloud training for 20+ students.
+
+Teckathon Winner: ₹50,000 prize for "Cyclone Underwater Glider" by Ingage Tech & Naan Mudhalvan.
+
+Hackathon Award: Top performer in Agri and Food Hackathon – Project BPEH.
+
+Milestones Page:
+Customers: 50+
+
+Customer Satisfaction: 45
+
+Workshops Conducted: 20
+
+Courses Offered: 25
+
+Contact Page:
+
+📍 Address: Tiruvannamalai, India  
+📧 Email: bastoffcial@gmail.com  
+📞 Phone: +91 9790155280  
+🔗 LinkedIn: https://www.linkedin.com/company/crystals-tech-consulting/
+💻 Tech Stack:
+React.js
+
+React Router DOM
+
+CSS Modules or TailwindCSS (optional)
+
+Use functional components and a clean folder structure (components/, pages/, etc.)
+
+📐 Design Requirements:
+Professional and clean layout
+
+Responsive design (mobile/tablet/desktop)
+
+Highlight navigation bar across all pages
+
+Use cards, grids, and icons where applicable
+
+Add placeholders or components for images (especially in "Services Done")
+
+Use footer with contact info on all pages
+
+✨ Bonus (Optional):
+Add scroll animations (AOS or Framer Motion)
+
+Highlight key achievements visually (icons, badges, etc.)
+
+Include call-to-action buttons (e.g., "Join Internship", "Contact Us")
