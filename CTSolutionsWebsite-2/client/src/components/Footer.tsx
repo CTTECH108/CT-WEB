@@ -93,9 +93,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-300 flex items-center justify-center">
-            © 2024 CTSolutions. All rights reserved. | Designed with{" "}
-            <Heart className="text-ct-primary mx-1" size={16} fill="currentColor" />
-            for the future
+            © 2025 CTSolutions. All rights reserved. | We are here for the future.
           </p>
         </div>
       </div>
